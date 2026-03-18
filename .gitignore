@@ -1,0 +1,13 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime files
+ci_sessions/*
+application/logs/*
+application/cache/*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
