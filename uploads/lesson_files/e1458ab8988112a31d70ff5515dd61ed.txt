@@ -1,0 +1,19 @@
+Message-Module
+function message($param1 = 'message_home', $param2 = '', $param3 = '')
+  {
+public function my_messages($param1 = "", $param2 = "") {
+models
+function send_new_private_message() {
+function send_reply_message($message_thread_code) {
+function mark_thread_messages_read($message_thread_code) {
+function count_unread_message_of_thread($message_thread_code) {
+public function get_last_message_by_message_thread_code($message_thread_code) {
+
+Views-backend
+admin
+Message
+Message_home
+Message_new
+Message_read
+Inner_messages
+My_messages

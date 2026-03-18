@@ -1,0 +1,49 @@
+Administratori-module
+public function enrol_history($param1 = "") {
+public function admin_revenue($param1 = "") {
+public function enrol_history_delete($param1 = "") {
+public function system_settings($param1 = "") {
+public function frontend_settings($param1 = "") {
+public function manage_language($param1 = '', $param2 = '', $param3 = ''){
+public function update_phrase_with_ajax() {
+function get_all_languages() {
+function get_list_of_language_files($dir = APPPATH.'/language', &$results = array()) {
+function get_list_of_directories_and_files($dir = APPPATH, &$results = array()) {
+function about() {
+function themes() {
+function mobile_app() {
+public function enrol_student($param1 = "") {
+ public function instructor_settings($param1 = "") {
+public function dashboard($param1 = "") {
+Models
+public function enrol_history($course_id = "") {
+public function enrol_history_by_user_id($user_id = "") {
+public function all_enrolled_student() {
+public function enrol_history_by_date_range($timestamp_start = "", $timestamp_end = "") {
+public function get_instructor_revenue($timestamp_start = "", $timestamp_end = "") {
+public function delete_enrol_history($param1) {
+public function update_system_settings() {
+public function update_instructor_settings() {
+public function update_frontend_settings() {
+public function update_frontend_banner() {
+public function enrol_student($user_id){
+public function enrol_a_student_manually() {
+public function enrol_to_free_course($course_id = "", $user_id = "") {
+ public function get_admin_details() {
+Views
+Admin
+class About
+Dashboard-chart
+Dashboard
+Enrol_history
+Enrol_student
+Frontend_settings
+Instructor_settings
+Manage_language
+Navigation
+System_settings
+
+
+
+
+
